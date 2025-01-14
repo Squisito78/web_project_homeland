@@ -1,0 +1,96 @@
+.location {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.location__subtitle {
+  font-family: "Inter";
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  text-align: left;
+  color: white;
+  max-width: 830px;
+  margin: 0 302px 39.98px 148px;
+}
+
+.location__quote {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  max-width: 738px;
+  margin: 0 394px 10px 148px;
+}
+
+.location__author {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
+  max-width: 732px;
+  margin: 0 400px 31.99px 148px;
+}
+
+.location__paragraf {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.08px;
+  text-align: left;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* STYLES MEDEIA QUERIS for 768px*/
+@media screen and (max-width: 768px) {
+  .location__subtitle {
+    font-size: 45px;
+    line-height: 49px;
+    max-width: 707px;
+    margin: 0 37px 50px 24px;
+  }
+
+  .location__quote {
+    max-width: 720px;
+    margin: 0 auto 58px;
+  }
+
+  .location__author {
+    max-width: 720px;
+    margin: 0 auto 32px;
+  }
+
+  .location__paragraf {
+    max-width: 720px;
+  }
+}
+
+/* STYLES MEDEIA QUERIS for 320px*/
+@media screen and (max-width: 320px) {
+  .location__subtitle {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 288px;
+    margin: 0 auto 40px;
+  }
+
+  .location__quote {
+    line-height: 30px;
+    max-width: 288px;
+    margin: 0 auto 10px;
+  }
+
+  .location__author {
+    width: 288px;
+    margin: 0 auto 32px;
+  }
+
+  .location__paragraf {
+    max-width: 288px;
+    margin: 0 auto 64px;
+  }
+}
