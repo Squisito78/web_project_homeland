@@ -45,7 +45,7 @@
   margin: 0 auto;
 }
 
-/* STYLES MEDEIA QUERIS for 768px*/
+/* STYLES MEDEIA QUERIS for 768px 1RA PARTE*/
 @media screen and (max-width: 768px) {
   .location__subtitle {
     font-size: 45px;
@@ -69,7 +69,9 @@
   }
 }
 
-/* STYLES MEDEIA QUERIS for 320px*/
+/* STYLES MEDEIA QUERIS for 768px 2DA PARTE*/
+
+/* STYLES MEDEIA QUERIS for 320px 1RA PARTE*/
 @media screen and (max-width: 320px) {
   .location__subtitle {
     font-size: 32px;
@@ -94,3 +96,5 @@
     margin: 0 auto 64px;
   }
 }
+
+/* STYLES MEDEIA QUERIS for 320px 1RA PARTE*/
