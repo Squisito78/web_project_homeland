@@ -3,6 +3,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   width: calc(100% - 96px);
+  max-width: 987px;
   margin: 118px auto 92px;
   gap: 16px;
   padding: 0 53px 0 43px;
@@ -10,4 +11,29 @@
 
 .photo-grid__image {
   width: 100%;
+}
+
+/* STYLES MEDEIA QUERIS for 768px 2DA PARTE*/
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: calc(100% - 48px);
+    max-width: 720px;
+    margin: 64px auto 110px;
+    padding: 0 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    grid-template-columns: 288px;
+    grid-template-rows: 216px;
+    width: calc(100% - 32px);
+    max-width: 288px;
+    width: 100%;
+    margin: 38px auto 62px;
+    padding: 0 16px 0 16px;
+  }
 }
