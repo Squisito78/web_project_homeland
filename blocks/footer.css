@@ -1,6 +1,17 @@
 .footer__copyright {
   color: white;
   max-width: 194px;
-  margin: 90px auto 0;
+  margin: 200px auto 0;
   padding-bottom: 25px;
+}
+
+/* STYLES MEDIA QUERIS for 768px 2DA PARTE*/
+/* Para ésta Media Queris, NO HAY CAMBIOS */
+
+/* STYLES MEDIA QUERIS for 320px 2DA PARTE*/
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    margin: 65px auto 0;
+  }
 }
