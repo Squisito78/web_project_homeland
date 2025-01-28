@@ -23,3 +23,9 @@ Para comenzar a trabajar con este proyecto en tu entorno local, sigue el este pa
    ```bash
    git clone https://github.com/tuusuario/tripleten_homeland.git
    ```
+
+## Gid Pages
+
+Nuestro enlace de Gid Page con dominio .github para poder visualizar la pagina Wed desde cualquier navegador.
+
+https://squisito78.github.io/web_project_homeland/
